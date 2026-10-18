@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Blackship Shield | Blackship</title>
-  <meta name="description" content="No defense is perfect. The goal is to increase the time and cost of an attack.">
+  <meta name="description" content="Download and run the temporary Windows security dashboard.">
   <meta name="robots" content="index, follow">
   <meta property="og:site_name" content="Blackship">
   <meta property="og:title" content="Blackship Shield | Blackship">
-  <meta property="og:description" content="No defense is perfect. The goal is to increase the time and cost of an attack.">
+  <meta property="og:description" content="Download and run the temporary Windows security dashboard.">
   <meta property="og:type" content="website">
   <link rel="alternate" hreflang="ko" href="https://blackship.kr/shield.html">
   <link rel="alternate" hreflang="en" href="https://blackship.kr/en/shield.html">
@@ -32,28 +32,13 @@
   </header>
 
   <main>
-    <section class="shield" style="max-width:800px;margin:32px auto;padding:24px;border:1px solid #8886">
-<h1>🛡️ Blackship Shield</h1><p>No defense is perfect. The goal is to increase the time and cost of an attack.</p>
-<p>These controls operate only on this page. They cannot protect other websites, browser extensions, or your computer from malware.</p>
-<div aria-live="polite" style="padding:20px 0"><strong id="sz-status">Idle</strong><p id="sz-clock">Elapsed: 00:00:00</p></div>
-<button id="sz-toggle" type="button" style="padding:12px 28px;cursor:pointer">Start protection</button>
-<h2>Protection status</h2><p>Secure context: <span id="sz-secure">—</span></p>
-<p>Privacy signal: <span id="sz-signal">—</span></p>
-<h2>How it works</h2><ul><li>This page loads no external resources during the session.</li><li>Session identifiers remain in memory, not cookies or local storage.</li><li>Stopping clears session data and resets the display. Closing the page discards in-memory state.</li><li>We check the secure context (HTTPS) and browser privacy signals. This is diagnostic, not cross-site blocking.</li></ul>
-<p><strong>If you have doubts, do not run it. That is good security too.</strong></p></section>
-<script>
-(()=>{'use strict';
-const labels={start:"Start protection", stop:"Stop protection", idle:"Idle", active:"Protection session active", elapsed:"Elapsed", yes:"Confirmed", no:"Not confirmed", none:"Not detected"};
-const button=document.getElementById('sz-toggle'),status=document.getElementById('sz-status'),clock=document.getElementById('sz-clock');
-let started=0,token=null,timer=null;
-function render(){const seconds=started?Math.floor((performance.now()-started)/1000):0;const hh=String(Math.floor(seconds/3600)).padStart(2,'0'),mm=String(Math.floor(seconds%3600/60)).padStart(2,'0'),ss=String(seconds%60).padStart(2,'0');clock.textContent=labels.elapsed+': '+hh+':'+mm+':'+ss;}
-function stop(){if(timer!==null)clearInterval(timer);timer=null;token=null;started=0;status.textContent=labels.idle;button.textContent=labels.start;render();}
-button.addEventListener('click',()=>{if(started){stop();return;}started=performance.now();token=crypto.randomUUID?crypto.randomUUID():String(started);status.textContent=labels.active;button.textContent=labels.stop;render();timer=setInterval(render,1000);});
-window.addEventListener('pagehide',stop);
-document.getElementById('sz-secure').textContent=window.isSecureContext?labels.yes:labels.no;
-document.getElementById('sz-signal').textContent=(navigator.globalPrivacyControl||navigator.doNotTrack==='1')?labels.yes:labels.none;
-})();
-</script>
+    <section class="shield" style="max-width:900px;margin:32px auto;padding:28px;background:#102031;color:#e5eef6;border:1px solid #3c6578">
+<h1>🛡️ Blackship Shield</h1><p>Download and run the temporary Windows security dashboard.</p>
+<p><a href="blackship_shield_v04.zip" download style="display:inline-block;padding:15px 25px;background:#147e91;color:white;text-decoration:none;font-weight:bold">Download Shield</a></p>
+<h2>How to use</h2><ol><li>Download the ZIP</li><li>Extract it and run start_shield.bat</li><li>Use the local dashboard to monitor and end the session</li></ol>
+<p style="color:#ebc88f">The website cannot launch local programs. Registry activity does not prove spyware. Capture exclusion protects only the Shield-owned window. Cleanup deletes only its isolated browser profile.</p>
+<h2>Shared PC checklist</h2><p>Chrome / Edge: Ctrl+H · Ctrl+Shift+Delete · Sign out and check downloads</p>
+</section>
   </main>
 
   <footer class="site-footer">

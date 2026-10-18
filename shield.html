@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Blackship Shield | Blackship</title>
-  <meta name="description" content="완벽한 방어는 없습니다. 공격에 필요한 시간과 비용을 높이는 것이 목표입니다.">
+  <meta name="description" content="공용 Windows PC용 임시 감시 도구. 다운로드하여 실행하면 로컬 대시보드가 열립니다.">
   <meta name="robots" content="index, follow">
   <meta property="og:site_name" content="Blackship">
   <meta property="og:title" content="Blackship Shield | Blackship">
-  <meta property="og:description" content="완벽한 방어는 없습니다. 공격에 필요한 시간과 비용을 높이는 것이 목표입니다.">
+  <meta property="og:description" content="공용 Windows PC용 임시 감시 도구. 다운로드하여 실행하면 로컬 대시보드가 열립니다.">
   <meta property="og:type" content="website">
   <link rel="alternate" hreflang="ko" href="https://blackship.kr/shield.html">
   <link rel="alternate" hreflang="en" href="https://blackship.kr/en/shield.html">
@@ -32,28 +32,13 @@
   </header>
 
   <main>
-    <section class="shield" style="max-width:800px;margin:32px auto;padding:24px;border:1px solid #8886">
-<h1>🛡️ Blackship Shield</h1><p>완벽한 방어는 없습니다. 공격에 필요한 시간과 비용을 높이는 것이 목표입니다.</p>
-<p>이 기능은 이 페이지 안에서만 작동합니다. 다른 웹사이트, 브라우저 확장 프로그램, PC의 악성코드를 방어하지 않습니다.</p>
-<div aria-live="polite" style="padding:20px 0"><strong id="sz-status">대기 중</strong><p id="sz-clock">실행 시간: 00:00:00</p></div>
-<button id="sz-toggle" type="button" style="padding:12px 28px;cursor:pointer">보호 시작</button>
-<h2>보호 상태</h2><p>보안 연결: <span id="sz-secure">—</span></p>
-<p>추적 방지 신호: <span id="sz-signal">—</span></p>
-<h2>작동 원리</h2><ul><li>세션 동안 이 페이지에서 외부 리소스를 불러오지 않습니다.</li><li>세션 식별 정보는 메모리에만 유지하며 쿠키나 로컬 저장소에 기록하지 않습니다.</li><li>중지를 누르면 세션 정보와 화면의 상태가 초기화됩니다. 페이지를 닫으면 메모리 상태가 사라집니다.</li><li>보안 컨텍스트(HTTPS), 브라우저의 추적 방지 신호를 점검합니다. 이것은 진단이지 다른 사이트에 대한 차단이 아닙니다.</li></ul>
-<p><strong>의심스럽다면 실행하지 마세요. 그것도 훌륭한 보안입니다.</strong></p></section>
-<script>
-(()=>{'use strict';
-const labels={start:"보호 시작", stop:"보호 중지", idle:"대기 중", active:"보호 세션 실행 중", elapsed:"실행 시간", yes:"확인", no:"미확인", none:"감지되지 않음"};
-const button=document.getElementById('sz-toggle'),status=document.getElementById('sz-status'),clock=document.getElementById('sz-clock');
-let started=0,token=null,timer=null;
-function render(){const seconds=started?Math.floor((performance.now()-started)/1000):0;const hh=String(Math.floor(seconds/3600)).padStart(2,'0'),mm=String(Math.floor(seconds%3600/60)).padStart(2,'0'),ss=String(seconds%60).padStart(2,'0');clock.textContent=labels.elapsed+': '+hh+':'+mm+':'+ss;}
-function stop(){if(timer!==null)clearInterval(timer);timer=null;token=null;started=0;status.textContent=labels.idle;button.textContent=labels.start;render();}
-button.addEventListener('click',()=>{if(started){stop();return;}started=performance.now();token=crypto.randomUUID?crypto.randomUUID():String(started);status.textContent=labels.active;button.textContent=labels.stop;render();timer=setInterval(render,1000);});
-window.addEventListener('pagehide',stop);
-document.getElementById('sz-secure').textContent=window.isSecureContext?labels.yes:labels.no;
-document.getElementById('sz-signal').textContent=(navigator.globalPrivacyControl||navigator.doNotTrack==='1')?labels.yes:labels.none;
-})();
-</script>
+    <section class="shield" style="max-width:900px;margin:32px auto;padding:28px;background:#102031;color:#e5eef6;border:1px solid #3c6578">
+<h1>🛡️ Blackship Shield</h1><p>공용 Windows PC용 임시 감시 도구. 다운로드하여 실행하면 로컬 대시보드가 열립니다.</p>
+<p><a href="blackship_shield_v04.zip" download style="display:inline-block;padding:15px 25px;background:#147e91;color:white;text-decoration:none;font-weight:bold">보호막 엔진 다운로드</a></p>
+<h2>사용 순서</h2><ol><li>보호막 ZIP 다운로드</li><li>압축 해제 후 start_shield.bat 실행</li><li>로컬 대시보드에서 감시 및 세션 종료</li></ol>
+<p style="color:#ebc88f">웹사이트는 로컬 프로그램을 직접 실행할 수 없습니다. 레지스트리 기록만으로 악성 프로그램을 확정할 수 없습니다. 화면 캡처 제외는 Shield 자체 창에만 적용됩니다. 세션 정리는 전용 격리 브라우저에만 적용됩니다.</p>
+<h2>공용 PC 사용 후 점검</h2><p>Chrome / Edge: Ctrl+H · Ctrl+Shift+Delete · 로그아웃 및 다운로드 파일 확인</p>
+</section>
   </main>
 
   <footer class="site-footer">
