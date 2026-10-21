@@ -425,7 +425,6 @@ https://blackship.kr/388.html
 https://blackship.kr/389.html
 https://blackship.kr/390.html
 https://blackship.kr/391.html
-https://blackship.kr/392.html
 https://blackship.kr/en/index.html
 https://blackship.kr/en/about.html
 https://blackship.kr/en/treasure.html
@@ -849,3 +848,4 @@ https://blackship.kr/en/384.html
 https://blackship.kr/en/385.html
 https://blackship.kr/en/386.html
 https://blackship.kr/en/387.html
+https://blackship.kr/en/388.html
