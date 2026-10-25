@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flint Site Builder | Flint&#x27;s Toolbox</title>
+  <meta name="description" content="A GUI-based website builder for creating static HTML websites from Markdown documents. You can configure menus, banners, layouts, and CSS while keeping the original Markdown files unchanged, then generate the completed website in a separate output folder. Markdown documents that are not part of the top, bottom, left, or right menu layouts can also be converted into individual HTML files using the `HTML Conversion` feature.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Blackship">
+  <meta property="og:title" content="Flint Site Builder | Flint&#x27;s Toolbox">
+  <meta property="og:description" content="A GUI-based website builder for creating static HTML websites from Markdown documents. You can configure menus, banners, layouts, and CSS while keeping the original Markdown files unchanged, then generate the completed website in a separate output folder. Markdown documents that are not part of the top, bottom, left, or right menu layouts can also be converted into individual HTML files using the `HTML Conversion` feature.">
+  <meta property="og:type" content="website">
+  <link rel="alternate" hreflang="ko" href="https://blackship.kr/toolbox/fsb.html">
+  <link rel="alternate" hreflang="en" href="https://blackship.kr/en/toolbox/fsb.html">
+  <link rel="alternate" hreflang="x-default" href="https://blackship.kr/toolbox/fsb.html">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="../index.html">Blackship</a>
+    <nav class="nav">
+
+      <a href="../index.html">Home</a>
+      <a href="../journey.html">🧭 Journey</a>
+      <a href="../treasure.html">💎 Treasure</a>
+      <a href="../shield.html">🛡️ Shield</a>
+      <a href="../toolbox.html">🧰 Toolbox</a>
+      <a href="../badamail.html">⚓ Sea Mail</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    
+        <article class="detail toolbox-detail">
+          <div class="toolbox-detail-media">
+            <img src="images/fsb_en.png" alt="Flint Site Builder" loading="lazy">
+          </div>
+          <div class="toolbox-detail-content">
+            <h1>Flint Site Builder</h1>
+            <p class="toolbox-detail-version">Version: 1.0.0</p>
+            <div class="toolbox-detail-description">
+              <h2>Flint Site Builder</h2><p>A GUI-based website builder for creating static HTML websites from Markdown documents.</p><p>You can configure menus, banners, layouts, and CSS while keeping the original Markdown files unchanged, then generate the completed website in a separate output folder. Markdown documents that are not part of the top, bottom, left, or right menu layouts can also be converted into individual HTML files using the <code>HTML Conversion</code> feature.</p><h3>How to Use</h3><ol><li>Create a new project or open an existing one.</li><li>Link Markdown documents from the working folder to the menus.</li><li>Configure the menus, banners, and template design.</li><li>Check the preview, then click <code>Generate Site</code>.</li></ol><h3>Menu Configuration</h3><p>Separate regular menu items with commas and define subcategories inside <code>[]</code>.</p><pre><code class="language-text">Home, South Korea, Travel[Seoul, Gangwon Province], Stories</code></pre><p>Each menu item can be linked to a Markdown document or an email address.</p><h3>Template Designs</h3><p>Four HTML layouts are available, with menus positioned at the top, bottom, left, or right. Each layout offers three design options:</p><ul><li><code>Default</code>: Standard design</li><li><code>Unlimited Banner</code>: A design with an expanded banner width</li><li><code>Menu Jump</code>: A design that uses a button to jump to the menu instead of a sticky menu</li></ul><p>The four HTML structures remain unchanged, while the designs are applied through CSS, providing a total of 12 built-in design combinations.</p><h3>Markdown Links</h3><p>Markdown documents can be linked to each other using standard <code>.md</code> links.</p><pre><code class="language-md">[Seoul](Seoul.md)</code></pre><p>When generating a website or converting Markdown to HTML, local <code>.md</code> links are automatically converted to <code>.html</code> links. External URLs, email links, image links, and other links remain unchanged.</p><h3>HTML Conversion</h3><p>Markdown documents that are not intended to be part of the top, bottom, left, or right menu layouts can be converted separately using the <code>HTML Conversion</code> feature.</p><p>When a folder is selected, <code>.md</code> files are converted to <code>.html</code>, while other files are copied without modification. Enabling <code>Include Subfolders</code> also preserves the original folder structure.</p><h3>Editing and Preview</h3><p>Markdown and CSS files can be edited directly within the program. Both an integrated GUI preview and a preview in an actual web browser are supported.</p><h3>Key Features</h3><ul><li>Generate static HTML websites from Markdown</li><li>Save and load projects</li><li>Four HTML layouts: Top, Bottom, Left, and Right</li><li>12 design combinations: Default, Unlimited Banner, and Menu Jump</li><li>Configure menus and nested subcategories</li><li>Customize banner images and text</li><li>Edit Markdown and CSS directly</li><li>Automatically convert Markdown links from <code>.md</code> to <code>.html</code></li><li>Batch convert standalone Markdown documents to HTML</li><li>Preserve folder structures and copy non-Markdown files</li><li>GUI and browser previews</li><li>Korean and English interfaces</li><li>Built-in sample files with preservation of existing samples</li></ul><h3>Running</h3><p>Install the required package:</p><pre><code class="language-bash">pip install markdown</code></pre><p>Run:</p><pre><code class="language-bash">python builder.py</code></pre><blockquote><p><code>Note:</code> If you are using the executable (EXE) version, you do not need to install the required package or run the Python command.</p></blockquote><h3>Command-Line Conversion</h3><p>You can also batch convert Markdown documents in a folder to HTML without using the GUI.</p><pre><code class="language-bash">builder.py &lt;folder&gt;
+builder.py C:\Docs /s
+builder.py C:\Docs -o web
+builder.py C:\Docs --keep</code></pre><ul><li><code>/s</code>: Include subfolders</li><li><code>-o</code>: Specify the output folder</li><li><code>--keep</code>: Do not convert <code>.md</code> links to <code>.html</code></li></ul><p>Running the program without any arguments launches the GUI.</p>
+            </div>
+            <div class="toolbox-detail-actions">
+              <a class="buy-button" href="https://github.com/flinthawke/toolbox/releases/download/fsb-v1.0.0/fsb.1.0.0.portable.zip">Download</a> <a class="badamail-link" href="https://github.com/flinthawke/toolbox/releases/tag/fsb-v1.0.0" target="_blank" rel="noopener">View source on GitHub</a>
+            </div>
+            <p class="toolbox-detail-back"><a class="badamail-link" href="../toolbox.html">Back to Toolbox</a></p>
+          </div>
+        </article>
+        
+  </main>
+
+  <footer class="site-footer">
+    <p>This program is provided AS IS, without any warranty. The author is not responsible for data loss or any other issues resulting from its use.</p>
+    <p>Please back up important files before using this program.</p>
+    <p>⚓ Blackship — The Voyage Never Ends.</p>
+    <p>© 2026 Blackship. All rights reserved.</p>
+  </footer>
+  <img class="visitor-counter-tracker" src="https://hits.sh/blackship.kr.svg?label=visitors&amp;color=000000&amp;labelColor=000000" alt="" width="1" height="1" aria-hidden="true">
+</body>
+</html>
