@@ -1,3 +1,29 @@
+/* Shared page presentation: static styling centralized here. */
+.update-notice-spaced { margin-top:24px; }
+.treasure-card-link { display:block;color:inherit;text-decoration:none; }
+.toolbox-index-grid { display:flex;gap:12px;flex-wrap:wrap; }
+.toolbox-index-card { display:block;flex:1 1 220px;min-width:0;padding:16px;border:1px solid #8885;border-radius:0;color:inherit;text-decoration:none; }
+.toolbox-index-description { margin:8px 0 0; }
+.banner-hidden-content { visibility:hidden; }
+.treasure-back-link { text-align:center; }
+.journey-route-map { position:relative;z-index:0;isolation:isolate;width:100%;height:var(--journey-map-height,300px);border-radius:0;overflow:hidden;background:#d9f1fa; }
+.journey-route-map-fallback { display:flex;align-items:center;justify-content:center;width:100%;height:100%;color:#075f8f; }
+.journey-ocean-photo-compact,.journey-home-photo { width:100%;height:155px;object-fit:cover;border-radius:0; }
+.journey-ocean-photo-full { width:100%;max-height:260px;object-fit:cover;border-radius:0; }
+.journey-ocean-fallback { display:grid;gap:10px; }
+.journey-place-grid { display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px; }
+.journey-place-card { padding:16px;min-width:0; }
+.journey-gallery { display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px; }
+.journey-gallery figure { margin:0; }
+.journey-gallery-image { width:100%;height:190px;object-fit:cover; }
+.journey-section { display:grid;gap:24px; }
+.journey-status-card { padding:18px; }
+.journey-detail-progress-track { height:12px;background:#c9e1eb;border-radius:8px;overflow:hidden; }
+.journey-deck-message { border:1px solid #a7cfdf;border-radius:9px;padding:12px 14px;background:rgba(255,255,255,.45);font-size:13px;line-height:1.65; }
+.journey-deck-heading { margin:0 0 8px;font-weight:700; }
+.journey-deck-gull { margin:0 0 5px; }
+.journey-deck-captain { margin:0; }
+
 /* =====================================================
    Blackship Theme
    읽기 쉬운 정적 쇼핑 페이지용 CSS
@@ -605,3 +631,50 @@ main > h1 {
         gap: 16px;
     }
 }
+
+/* Journey homepage: single source of layout and spacing */
+.home-voyage.journey-ocean { display:grid;gap:16px;background:linear-gradient(135deg,#F1FCFF,#D5F3F8,#BDE6F2); }
+.home-voyage .journey-home-hint { margin:0;text-align:center;font-size:12px;color:#42697b; }
+.home-voyage .journey-home-progress-track { height:10px;background:#b8dce9;border-radius:8px;overflow:hidden; }
+.home-voyage .journey-home-progress-fill { height:100%;background:#187a9d; }
+.home-voyage.journey-ocean { color:#173f53 !important; border:1px solid #80b8d0; border-radius:0; padding:20px; }
+      .home-voyage.journey-ocean h2,
+      .home-voyage.journey-ocean p,
+      .home-voyage.journey-ocean strong,
+      .home-voyage.journey-ocean .eyebrow { color:#173f53 !important; }
+      .home-voyage.journey-ocean a { color:#075f8f !important; text-decoration:underline; }
+      .home-voyage .journey-home-heading { font-size:clamp(19px,1.7vw,24px);line-height:1.35;margin:0;overflow-wrap:keep-all; }
+      /* 글 / 지도 / 사진: 좌우 독립적인 자연 흐름, 고정 행 및 위치 보정 없음 */
+      .home-voyage .journey-home-layout { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start; }
+      .home-voyage .journey-home-left,
+      .home-voyage .journey-home-right { display:flex;flex-direction:column;min-width:0; }
+      .home-voyage .journey-home-header { display:flex;flex-direction:column;gap:14px;margin:0 0 4px; }
+      .home-voyage .journey-home-header .eyebrow,
+      .home-voyage .journey-home-header p,
+      .home-voyage .journey-home-right > p { margin:0; }
+      .home-voyage .journey-home-position { margin:0 !important;transform:none; }
+      .home-voyage .journey-home-right { gap:14px; }
+      .home-voyage .journey-home-header .eyebrow,
+      .home-voyage .journey-home-route { line-height:1.6; }
+      .home-voyage .journey-home-spacer { display:block;height:32px;flex:none; }
+      .home-voyage .journey-home-more .journey-home-spacer { margin-bottom:0; }
+      .home-voyage .journey-home-progress { display:flex;flex-direction:column;gap:14px; }
+      .home-voyage .journey-home-progress p { margin:0; }
+      .home-voyage .journey-home-progress + .journey-home-spacer { margin-top:-14px; }
+      .home-voyage .journey-home-spacer + .journey-home-media { margin-top:-14px; }
+      .home-voyage .journey-home-map,
+      .home-voyage .journey-home-media { min-width:0; }
+      .home-voyage .journey-home-hint { margin-top:12px; }
+      @media (max-width:720px) {
+        .home-voyage .journey-home-layout { display:flex;flex-direction:column;gap:20px; }
+        .home-voyage .journey-home-left,
+        .home-voyage .journey-home-right { width:100%; }
+      }
+      /* 일반 사진과 기본 바다 장면: 사진 155px + 텍스트 2줄로 높이 통일 */
+      .home-voyage .journey-home-media { display:grid;grid-template-rows:155px 48px;gap:10px;min-width:0; }
+      .home-voyage .journey-home-photos { display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;min-width:0;overflow:hidden; }
+      .home-voyage .journey-home-photos img { display:block;min-width:0; }
+      .home-voyage .journey-home-media > img { display:block;min-width:0; }
+      .home-voyage .journey-home-caption { min-width:0;height:48px;overflow:hidden;line-height:24px;font-size:inherit;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow-wrap:anywhere; }
+      .home-voyage .journey-home-dialogue { display:flex;flex-direction:column;justify-content:center;gap:6px; }
+      .home-voyage .journey-home-dialogue p { margin:0 !important;font-size:inherit;line-height:21px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0; }
