@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flint Backup | Flint&#x27;s Toolbox</title>
+  <meta name="description" content="Flint Backup is a Windows backup utility that lets you back up files and folders to a specified destination using mirror backup, standard copy, or ZIP compression. You can create multiple backup slots and run them sequentially. Frequently used slot configurations can be saved as up to 8 separate presets and switched between as needed.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Blackship">
+  <meta property="og:title" content="Flint Backup | Flint&#x27;s Toolbox">
+  <meta property="og:description" content="Flint Backup is a Windows backup utility that lets you back up files and folders to a specified destination using mirror backup, standard copy, or ZIP compression. You can create multiple backup slots and run them sequentially. Frequently used slot configurations can be saved as up to 8 separate presets and switched between as needed.">
+  <meta property="og:type" content="website">
+  <link rel="alternate" hreflang="ko" href="https://blackship.kr/toolbox/fbu.html">
+  <link rel="alternate" hreflang="en" href="https://blackship.kr/en/toolbox/fbu.html">
+  <link rel="alternate" hreflang="x-default" href="https://blackship.kr/toolbox/fbu.html">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="../index.html">Blackship</a>
+    <nav class="nav">
+
+      <a href="../index.html">Home</a>
+      <a href="../journey.html">🧭 Journey</a>
+      <a href="../treasure.html">💎 Treasure</a>
+      <a href="../shield.html">🛡️ Shield</a>
+      <a href="../toolbox.html">🧰 Toolbox</a>
+      <a href="../badamail.html">⚓ Sea Mail</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    
+        <article class="detail toolbox-detail">
+          <div class="toolbox-detail-media">
+            <img src="images/fbu_en.png" alt="Flint Backup" loading="lazy">
+          </div>
+          <div class="toolbox-detail-content">
+            <h1>Flint Backup</h1>
+            <p class="toolbox-detail-version">Version: 1.0.0</p>
+            <div class="toolbox-detail-description">
+              <h2>Flint Backup</h2><p>Flint Backup is a Windows backup utility that lets you back up files and folders to a specified destination using mirror backup, standard copy, or ZIP compression.</p><p>You can create multiple backup slots and run them sequentially. Frequently used slot configurations can be saved as up to 8 separate presets and switched between as needed.</p><h3>How to Use</h3><ol><li>Select the folder or file you want to back up in each slot.</li><li>Choose the destination where the backup will be stored.</li><li>Select a backup mode: <code>Mirror</code>, <code>Standard</code>, or <code>ZIP</code>.</li><li>Add more slots if needed, or select <code>Exclude from Current Run</code> to skip a slot.</li><li>Click <code>Start Backup</code>.</li><li>Monitor the current progress, files copied, files reused, and overall progress at the bottom of the window.</li></ol><h3>Backup Modes</h3><ul><li><code>Mirror</code>: Maintains the same directory structure as the source, updates only changed files, and removes items from the backup that no longer exist in the source. Unchanged files are reused whenever possible instead of being copied again.</li><li><code>Standard</code>: Copies source files and folders to the selected destination.</li><li><code>ZIP</code>: Compresses the source files and folders into a ZIP archive.</li></ul><p>When performing mirror backups from virtual drives such as Google Drive, Flint Backup first compares file sizes and modification times. If only the modification time differs, it checks the actual file contents to avoid unnecessarily copying identical files.</p><h3>Key Features</h3><ul><li>Back up folders and individual files</li><li>Mirror, Standard, and ZIP backup modes</li><li>Incremental mirror backups that reuse unchanged files</li><li>Sequential execution of multiple backup slots</li><li>Save and switch between up to 8 slot configuration presets</li><li>Customize preset names and colors, and rearrange their order</li><li>Rearrange backup slot order</li><li>Exclude individual slots from the current backup run</li><li>Display current progress, copied file count, and reused file count</li><li>Show progress for both the current slot and the entire backup operation</li><li>Display the path of the file currently being processed</li><li>Optional SHA-256 integrity verification</li><li>Stop an ongoing backup</li><li>Automatically save backup slots and application settings</li><li>Automatically remember window size and position</li><li>Backup operation logging</li><li>Korean and English interface support</li><li>No external dependencies required</li></ul><h3>Run</h3><pre><code class="language-bash">python backup.py</code></pre>
+            </div>
+            <div class="toolbox-detail-actions">
+              <a class="buy-button" href="https://github.com/flinthawke/toolbox/releases/download/fbu-v1.0.0/fbu.1.0.0.portable.zip">Download</a> <a class="badamail-link" href="https://github.com/flinthawke/toolbox/releases/tag/fbu-v1.0.0" target="_blank" rel="noopener">View source on GitHub</a>
+            </div>
+            <p class="toolbox-detail-back"><a class="badamail-link" href="../toolbox.html">Back to Toolbox</a></p>
+          </div>
+        </article>
+        
+  </main>
+
+  <footer class="site-footer">
+    <p>This program is provided AS IS, without any warranty. The author is not responsible for data loss or any other issues resulting from its use.</p>
+    <p>Please back up important files before using this program.</p>
+    <p>⚓ Blackship — The Voyage Never Ends.</p>
+    <p>© 2026 Blackship. All rights reserved.</p>
+  </footer>
+  <img class="visitor-counter-tracker" src="https://hits.sh/blackship.kr.svg?label=visitors&amp;color=000000&amp;labelColor=000000" alt="" width="1" height="1" aria-hidden="true">
+</body>
+</html>
