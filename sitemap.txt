@@ -430,6 +430,7 @@ https://blackship.kr/treasure/392.html
 https://blackship.kr/treasure/393.html
 https://blackship.kr/treasure/394.html
 https://blackship.kr/treasure/395.html
+https://blackship.kr/treasure/396.html
 https://blackship.kr/en/index.html
 https://blackship.kr/en/about/index.html
 https://blackship.kr/en/treasure/index.html
@@ -832,4 +833,3 @@ https://blackship.kr/en/treasure/362.html
 https://blackship.kr/en/treasure/363.html
 https://blackship.kr/en/treasure/364.html
 https://blackship.kr/en/treasure/365.html
-https://blackship.kr/en/treasure/366.html
