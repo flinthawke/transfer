@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://blackship.kr/index.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/about.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/about/index.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/treasure/index.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/shield.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/shield/index.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/journey/index.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/treasure/random.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/treasure/hidden.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/treasure/value.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/treasure/popular.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/badamail.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/toolbox.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260628-191148.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260628-191703.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260629-051650.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260629-094601.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260630-050705.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260704-153822.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260704-212449.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260706-224421.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260712-091758.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260712-140537.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260712-203029.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260718-175628.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260718-213249.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260726-115350.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260726-214455.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260802-104212.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20260802-182123.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/mail/badamail-20261014-205956.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/index.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/toolbox/index.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260628-191148.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260628-191703.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260629-051650.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260629-094601.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260630-050705.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260704-153822.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260704-212449.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260706-224421.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260712-091758.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260712-140537.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260712-203029.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260718-175628.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260718-213249.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260726-115350.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260726-214455.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260802-104212.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20260802-182123.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/badamail/badamail-20261014-205956.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/toolbox/fbu.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/toolbox/ffr.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/toolbox/fim.html</loc><lastmod>2026-10-30</lastmod></url>
@@ -430,34 +431,36 @@
   <url><loc>https://blackship.kr/treasure/392.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/treasure/393.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/treasure/394.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/treasure/395.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/en/index.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/about.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/about/index.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/en/treasure/index.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/shield.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/shield/index.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/journey/index.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/en/treasure/random.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/en/treasure/hidden.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/en/treasure/value.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/en/treasure/popular.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/badamail.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/toolbox.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260628-191148.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260628-191703.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260629-051650.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260629-094601.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260630-050705.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260704-153822.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260704-212449.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260706-224421.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260712-091758.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260712-140537.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260712-203029.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260718-175628.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260718-213249.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260726-115350.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260726-214455.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260802-104212.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20260802-182123.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/mail/badamail-20261014-205956.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/index.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/toolbox/index.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260628-191148.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260628-191703.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260629-051650.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260629-094601.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260630-050705.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260704-153822.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260704-212449.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260706-224421.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260712-091758.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260712-140537.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260712-203029.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260718-175628.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260718-213249.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260726-115350.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260726-214455.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260802-104212.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20260802-182123.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://blackship.kr/en/badamail/badamail-20261014-205956.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/en/toolbox/fbu.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/en/toolbox/ffr.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/en/toolbox/fim.html</loc><lastmod>2026-10-30</lastmod></url>
@@ -832,9 +835,4 @@
   <url><loc>https://blackship.kr/en/treasure/364.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/en/treasure/365.html</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://blackship.kr/en/treasure/366.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/treasure/367.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/treasure/368.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/treasure/369.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/treasure/370.html</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://blackship.kr/en/treasure/371.html</loc><lastmod>2026-10-30</lastmod></url>
 </urlset>
