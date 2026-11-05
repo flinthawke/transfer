@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flint MDSort | Flint&#x27;s Toolbox</title>
+  <meta name="description" content="Flint MDSort is a GUI and command-line tool that standardizes line breaks and formatting across multiple Markdown documents using configurable rules. It lets you preview the results before making any changes to the original files.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Blackship">
+  <meta property="og:title" content="Flint MDSort | Flint&#x27;s Toolbox">
+  <meta property="og:description" content="Flint MDSort is a GUI and command-line tool that standardizes line breaks and formatting across multiple Markdown documents using configurable rules. It lets you preview the results before making any changes to the original files.">
+  <meta property="og:type" content="website">
+  <link rel="alternate" hreflang="ko" href="https://blackship.kr/toolbox/fms.html">
+  <link rel="alternate" hreflang="en" href="https://blackship.kr/en/toolbox/fms.html">
+  <link rel="alternate" hreflang="x-default" href="https://blackship.kr/toolbox/fms.html">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="../index.html">Blackship</a>
+    <nav class="nav">
+
+      <a href="../index.html">Home</a>
+      <a href="../journey/index.html">🧭 Journey</a>
+      <a href="../treasure/index.html">💎 Treasure</a>
+      <a href="../shield/index.html">🛡️ Shield</a>
+      <a href="../toolbox/index.html">🧰 Toolbox</a>
+      <a href="../badamail/index.html">⚓ Sea Mail</a>
+      <a href="../about/index.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    
+        <article class="detail toolbox-detail">
+          <div class="toolbox-detail-media">
+            <img src="images/fms.png" alt="Flint MDSort" loading="lazy">
+          </div>
+          <div class="toolbox-detail-content">
+            <h1>Flint MDSort</h1>
+            <p class="toolbox-detail-version">Version: 1.0.0</p>
+            <div class="toolbox-detail-description">
+              <h2>Flint MDSort</h2><p>Flint MDSort is a GUI and command-line tool that standardizes line breaks and formatting across multiple Markdown documents using configurable rules. It lets you preview the results before making any changes to the original files.</p><h3>How to Use</h3><ol><li>Launch the program and select Markdown documents using <code>Add Files</code>.</li><li>Select a document from the file list to automatically preview the formatted result.</li><li>Switch between <code>Rendered View</code> and <code>Source View</code> to inspect the result.</li><li>If needed, open <code>View Rules</code> to enable or disable formatting rules and save your preferences.</li><li>Choose whether to back up the original files, then click <code>Run Formatting</code>.</li></ol><h3>Key Features</h3><ul><li>Add multiple Markdown files, remove selected files, or clear the entire list</li><li>Merge consecutive lines in regular paragraphs into a single line</li><li>Merge continuation lines within lists</li><li>Convert <code>**bold text**</code> and <code>__bold text__</code> into backtick-enclosed text</li><li>Preserve fenced code blocks, Markdown tables, and HTML blocks</li><li>Enable or disable individual formatting rules and save preferences</li><li>Preview formatted Markdown using the shared <code>flinters</code> Markdown renderer, with an option to switch to source view</li><li>Automatically update the preview when selecting a file</li><li>Adjustable horizontal divider for resizing the file list and preview areas</li><li>Auto-hiding scrollbars that appear only when needed</li><li>Optional <code>.bak</code> backup files created alongside the originals</li><li>Korean and English interfaces, with automatic restoration of window size and position</li><li>Support for both GUI and command-line operation</li></ul><h3>Running the Program</h3><p>Launch the GUI:</p><pre><code class="language-bash">python mdsort.py</code></pre><p>Specify one or more files to process them in command-line mode:</p><pre><code class="language-bash">python mdsort.py README.md
+python mdsort.py first.md second.md third.md</code></pre><p>Command-line options:</p><pre><code class="language-bash">python mdsort.py README.md --no-backup
+python mdsort.py README.md --stdout
+python mdsort.py README.md --check</code></pre><ul><li><code>--no-backup</code>: Modify files without creating <code>.bak</code> backups</li><li><code>--stdout</code>: Print the formatted result without modifying the original file (single file only)</li><li><code>--check</code>: Check whether formatting changes are needed without modifying any files</li></ul>
+            </div>
+            <div class="toolbox-detail-actions">
+              <a class="buy-button" href="https://github.com/flinthawke/toolbox/releases/download/fms-v1.0.0/fms.1.0.0.portable.zip">Download</a> <a class="badamail-link" href="https://github.com/flinthawke/toolbox/releases/tag/fms-v1.0.0" target="_blank" rel="noopener">View source on GitHub</a>
+            </div>
+            <p class="toolbox-detail-back"><a class="badamail-link" href="index.html">Back to Toolbox</a></p>
+          </div>
+        </article>
+        
+  </main>
+
+  <footer class="site-footer">
+    <p>This program is provided AS IS, without any warranty. The author is not responsible for data loss or any other issues resulting from its use.</p>
+    <p>Please back up important files before using this program.</p>
+    <p>⚓ Blackship — The Voyage Never Ends.</p>
+    <p>© 2026 Blackship. All rights reserved.</p>
+  </footer>
+  <img class="visitor-counter-tracker" src="https://hits.sh/blackship.kr.svg?label=visitors&amp;color=000000&amp;labelColor=000000" alt="" width="1" height="1" aria-hidden="true">
+</body>
+</html>
